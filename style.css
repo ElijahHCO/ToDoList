@@ -1,13 +1,16 @@
 body {
     margin: 0;
     background-color: rgb(241, 241, 227) ;
+    
 }
 main {
     background-color: beige;
     border: black solid .15em ;
     border-radius: .25em;
     margin: 1em;
+    height: 100vh;
 }
+
 ul li {
     cursor: pointer;
     position: relative;
@@ -21,14 +24,17 @@ ul li {
     -ms-user-select: none;
     user-select: none;
 }
+
 .headerBox{
     text-align: center;
 }
+
 #toDoList {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 #addBtn {
     cursor: pointer;
     border: .15em solid black;
@@ -37,6 +43,7 @@ ul li {
     background: black;
     color: beige;
 }
+
 .close {
     position: absolute;
     right: 0;

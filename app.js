@@ -16,6 +16,13 @@ for (i =0; i < close.length; i++) {
     }
 }
 
+let list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === "li"){
+        ev.target.classList.toggle("checked");
+    }
+}, false );
+
 function newElement() {
     let li = document.createElement('li');
     let inputValue = document.getElementById("myInput").value
