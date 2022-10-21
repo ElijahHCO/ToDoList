@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+    background-color: rgb(241, 241, 227) ;
+}
 main {
     background-color: beige;
     border: black solid .15em ;
     border-radius: .25em;
+    margin: 1em 0 0 0 ;
 }
 ul li {
     cursor: pointer;
